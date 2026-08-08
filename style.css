@@ -1,0 +1,28 @@
+*,
+html{
+ box-sizing: border-box;
+}
+
+.card-both{
+    border: 1px solid rgb(224, 160, 160);
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-impar,
+.card-par{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-impar{
+    border: 5px solid blue;
+
+}
+
+.card-par{
+    border: 5px solid red;
+
+}
