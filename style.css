@@ -4,7 +4,11 @@ html{
 }
 
 .card-both{
-    border: 1px solid rgb(224, 160, 160);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 0 auto; /*agregar*/
+    
     width: 600px;
     display: flex;
     justify-content: space-around;
@@ -15,6 +19,8 @@ html{
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+
+    box-shadow: 5px 5px 5px gray;/*agregar*/
 }
 
 .card-impar{
